@@ -13,4 +13,4 @@ RUN apt-get update && apt-get install -y \
                        sbt \
          && rm -rf /var/lib/apt/lists/*
 
-RUN sbt -sbt-version 0.13.9 exit
+RUN sbt -sbt-version 0.13.11 exit
